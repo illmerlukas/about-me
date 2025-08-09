@@ -31,17 +31,17 @@
       <div
         class="absolute -top-4 -left-4 bg-gray-800 text-blue-400 px-3 py-1 rounded-md text-sm font-mono shadow-lg"
       >
-        &lt;div&gt;
+        // TODO: sleep
       </div>
       <div
         class="absolute top-1/2 -right-8 bg-gray-800 text-green-400 px-3 py-1 rounded-md text-sm font-mono shadow-lg"
       >
-        console.log()
+        coffee.level = 'max'
       </div>
       <div
         class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-gray-800 text-purple-400 px-3 py-1 rounded-md text-sm font-mono shadow-lg"
       >
-        { ... }
+        ctrl+c, ctrl+v 🤫
       </div>
     </div>
   </div>

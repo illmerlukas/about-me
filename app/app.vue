@@ -4,5 +4,6 @@
 
     <Navigation />
     <HeroSection />
+    <AboutSection />
   </div>
 </template>
