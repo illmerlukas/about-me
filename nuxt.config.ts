@@ -8,6 +8,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
   ],
+  routeRules: {
+    '/': {
+      prerender: true,
+    },
+  },
   googleFonts: {
     families: {
       Roboto: [300, 400, 500, 700],
