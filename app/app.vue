@@ -1,9 +1,11 @@
 <template>
-  <div class="min-h-screen bg-gray-900">
+  <div class="min-h-screen bg-gray-900 font-roboto">
     <NuxtRouteAnnouncer />
 
     <Navigation />
     <HeroSection />
-    <AboutSection />
+    <main>
+      <AboutSection />
+    </main>
   </div>
 </template>

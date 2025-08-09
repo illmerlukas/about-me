@@ -13,7 +13,7 @@
       <header class="text-center mb-16">
         <h2
           id="about-heading"
-          class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+          class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 font-roboto-flex"
         >
           About Me
         </h2>

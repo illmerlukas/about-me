@@ -9,7 +9,15 @@ const config: Config = {
     './app.vue',
     './error.vue',
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        'roboto-flex': ['Roboto Flex', 'sans-serif'],
+        'roboto-mono': ['Roboto Mono', 'monospace'],
+      },
+    },
+  },
   plugins: [],
 }
 

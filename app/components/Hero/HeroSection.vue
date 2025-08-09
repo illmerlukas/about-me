@@ -6,12 +6,10 @@
       <div
         class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[80vh]"
       >
-        <HeroContent />
-        <HeroAvatar />
+        <HeroContent class="order-2 lg:order-1" />
+        <HeroAvatar class="order-1 lg:order-2" />
       </div>
     </div>
-
-    <ScrollIndicator />
   </section>
 </template>
 

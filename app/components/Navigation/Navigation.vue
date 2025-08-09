@@ -27,6 +27,7 @@
     <NavigationMobileMenu
       :is-open="mobileMenuOpen"
       :navigation-links="navigationLinks"
+      :social-links="socialLinks"
       @close="closeMobileMenu"
       @nav-click="handleNavClick"
     />

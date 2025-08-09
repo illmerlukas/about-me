@@ -1,13 +1,15 @@
 <template>
   <div class="space-y-4">
-    <h4 class="text-lg font-semibold text-white text-center">Tech Stack</h4>
+    <h4 class="text-lg font-semibold text-white text-center font-roboto-flex">
+      Tech Stack
+    </h4>
 
     <div
       v-for="category in techCategories"
       :key="category.name"
       class="space-y-2"
     >
-      <h5 :class="`text-sm font-medium ${category.color}`">
+      <h5 :class="`text-sm font-medium font-roboto ${category.color}`">
         {{ category.name }}
       </h5>
       <div
@@ -18,7 +20,7 @@
         <span
           v-for="tech in category.technologies"
           :key="tech"
-          class="px-2 py-1 bg-gray-600 text-gray-300 text-xs rounded"
+          class="px-2 py-1 bg-gray-600 text-gray-300 text-xs rounded font-roboto-mono"
           role="listitem"
         >
           {{ tech }}

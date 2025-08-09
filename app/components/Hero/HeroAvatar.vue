@@ -34,7 +34,7 @@
         // TODO: sleep
       </div>
       <div
-        class="absolute top-1/2 -right-8 bg-gray-800 text-green-400 px-3 py-1 rounded-md text-sm font-mono shadow-lg"
+        class="absolute top-3/4 -right-4 md:-right-8 bg-gray-800 text-green-400 px-3 py-1 rounded-md text-sm font-mono shadow-lg"
       >
         coffee.level = 'max'
       </div>

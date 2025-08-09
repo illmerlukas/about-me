@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden md:flex items-center space-x-4"
+    class="flex items-center space-x-4"
     role="group"
     aria-label="Social Media Links"
   >

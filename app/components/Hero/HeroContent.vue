@@ -2,7 +2,7 @@
   <div class="space-y-8">
     <div class="space-y-6">
       <div
-        class="text-xl md:text-2xl text-gray-300 max-w-3xl leading-relaxed min-h-[2.5rem]"
+        class="text-xl md:text-2xl text-gray-300 max-w-3xl leading-relaxed min-h-[2.5rem] font-roboto-mono"
       >
         <span class="text-blue-400">></span>
         <span class="text-white ml-2">{{ displayedText }}</span>
@@ -13,11 +13,13 @@
         >
       </div>
 
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+      <h1
+        class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-roboto-flex"
+      >
         <span class="text-white">Lukas Illmer</span>
         <br />
         <span
-          class="text-gray-400 text-2xl md:text-3xl lg:text-4xl font-normal"
+          class="text-gray-400 text-2xl md:text-3xl lg:text-4xl font-normal font-roboto"
         >
           Full-Stack Developer
         </span>
@@ -26,12 +28,12 @@
 
     <div class="flex flex-col sm:flex-row gap-4">
       <button
-        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
+        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg font-roboto"
       >
         Explore My Work
       </button>
       <button
-        class="border border-gray-600 text-gray-300 hover:text-white hover:border-gray-400 font-semibold py-4 px-8 rounded-lg transition-all duration-300"
+        class="border border-gray-600 text-gray-300 hover:text-white hover:border-gray-400 font-semibold py-4 px-8 rounded-lg transition-all duration-300 font-roboto"
       >
         Download CV
       </button>
@@ -113,7 +115,7 @@ onMounted(() => {
 /* Alternative: Matrix-style cursor */
 .cursor-matrix {
   animation: matrix-blink 1s linear infinite;
-  font-family: 'Courier New', monospace;
+  font-family: 'Roboto Mono', monospace;
   text-shadow: 0 0 10px #00ff00;
 }
 
