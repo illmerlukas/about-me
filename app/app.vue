@@ -6,6 +6,7 @@
     <HeroSection />
     <main>
       <AboutSection />
+      <SkillsSection />
     </main>
   </div>
 </template>
