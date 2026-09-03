@@ -19,8 +19,8 @@
             ></div>
 
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU33y-SNTN1O0UhJzoF3prqIXmWQr-7KT7nYMAQBg7j3-PTq1rrzn_jen6bmk05B8jKLdJwOhgckfN5ZSX5lV6vVgvnT7jKMQ-FX6uXfM5zbh9gXlgz_vCCrKkKXYbG0OTHIlf0gwQXjy6KiKNvMYPmfA6G-2_0zHdWe3A2myexRkRqYohWgm0_foc01ZxO_j0YEQS_UoJb66kHIZQGxs5CdhCNZlq5Tche5OQ9rVGDM3wKn9fcAGVt8wqn_xysQYBB4wy6cc3268"
-              alt="Avatar"
+              src="/lukas.avif"
+              alt="Lukas Illmer"
               class="absolute inset-0 w-full h-full object-cover"
               fetchpriority="high"
             />
