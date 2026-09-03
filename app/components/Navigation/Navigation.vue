@@ -7,13 +7,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
-          <NavigationNavLogo @logo-click="handleLogoClick" />
+          <NavigationNavLogo />
         </div>
 
-        <NavigationNavLinks
-          :navigation-links="navigationLinks"
-          @nav-click="handleNavClick"
-        />
+        <NavigationNavLinks :navigation-links="navigationLinks" />
 
         <NavigationSocialLinks :social-links="socialLinks" />
 
@@ -29,7 +26,6 @@
       :navigation-links="navigationLinks"
       :social-links="socialLinks"
       @close="closeMobileMenu"
-      @nav-click="handleNavClick"
     />
   </nav>
 </template>
@@ -39,9 +35,7 @@ const mobileMenuOpen = ref(false)
 
 const navigationLinks = [
   { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
-  { href: '#contact', label: 'Contact' },
 ]
 
 const socialLinks = [
@@ -67,13 +61,6 @@ const closeMobileMenu = () => {
   mobileMenuOpen.value = false
 }
 
-const handleLogoClick = (event: Event) => {
-  console.log('Logo clicked', event)
-}
-
-const handleNavClick = (event: Event) => {
-  console.log('Navigation clicked', event)
-}
 onMounted(() => {
   const handleEscape = (event: KeyboardEvent) => {
     if (event.key === 'Escape' && mobileMenuOpen.value) {

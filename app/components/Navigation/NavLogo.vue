@@ -24,15 +24,10 @@
 </template>
 
 <script setup lang="ts">
-const emit = defineEmits<{
-  logoClick: [event: Event]
-}>()
-
 const { scrollToTop } = useSmoothScroll()
 
 const handleLogoClick = (event: Event) => {
   scrollToTop()
   event.preventDefault()
-  emit('logoClick', event)
 }
 </script>

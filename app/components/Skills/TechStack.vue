@@ -60,8 +60,6 @@ interface TechCategory {
   color: string
   icon: string
   iconBg: string
-  gradientClass: string
-  glowClass: string
   technologies: string[]
 }
 
@@ -83,45 +81,42 @@ const techCategories: TechCategory[] = [
     color: 'text-blue-400',
     icon: '🎨',
     iconBg: 'bg-blue-500/20 text-blue-400',
-    gradientClass: 'from-blue-500/30 to-cyan-500/30',
-    glowClass: 'bg-blue-500/50',
-    technologies: ['JavaScript', 'TypeScript', 'Vue.js', 'Nuxt.js', 'React.js'],
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'Vue.js',
+      'Nuxt.js',
+      'React.js',
+      'Tailwind CSS',
+    ],
   },
   {
     name: 'Backend',
     color: 'text-green-400',
     icon: '⚡',
     iconBg: 'bg-green-500/20 text-green-400',
-    gradientClass: 'from-green-500/30 to-emerald-500/30',
-    glowClass: 'bg-green-500/50',
-    technologies: ['PHP', 'Laravel', 'WordPress', 'GraphQL'],
+    technologies: ['PHP', 'Laravel', 'WordPress', 'REST / GraphQL'],
   },
   {
     name: 'Database',
     color: 'text-orange-400',
     icon: '🗄️',
     iconBg: 'bg-orange-500/20 text-orange-400',
-    gradientClass: 'from-orange-500/30 to-yellow-500/30',
-    glowClass: 'bg-orange-500/50',
-    technologies: ['MySQL', 'Elasticsearch'],
+    technologies: ['MySQL'],
   },
   {
-    name: 'DevOps & Tools',
+    name: 'DevOps',
     color: 'text-purple-400',
     icon: '🛠️',
     iconBg: 'bg-purple-500/20 text-purple-400',
-    gradientClass: 'from-purple-500/30 to-pink-500/30',
-    glowClass: 'bg-purple-500/50',
-    technologies: ['GitLab', 'CI/CD', 'Docker', 'Jira'],
+    technologies: ['GitLab', 'CI/CD', 'Docker'],
   },
   {
-    name: 'Design',
+    name: 'Design & Tools',
     color: 'text-pink-400',
     icon: '✨',
     iconBg: 'bg-pink-500/20 text-pink-400',
-    gradientClass: 'from-pink-500/30 to-rose-500/30',
-    glowClass: 'bg-pink-500/50',
-    technologies: ['Figma', 'Tailwind CSS'],
+    technologies: ['Figma', 'Jira'],
   },
 ]
 </script>

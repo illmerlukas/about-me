@@ -23,7 +23,6 @@ export const useSmoothScroll = () => {
   }
 
   return {
-    scrollToElement,
     scrollToTop,
     handleAnchorClick,
   }

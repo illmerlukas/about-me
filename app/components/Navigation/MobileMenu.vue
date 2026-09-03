@@ -32,7 +32,6 @@ defineProps<{
 
 const emit = defineEmits<{
   close: []
-  navClick: [event: Event]
 }>()
 
 const { handleAnchorClick } = useSmoothScroll()
@@ -40,6 +39,5 @@ const { handleAnchorClick } = useSmoothScroll()
 const handleMobileNavClick = (event: Event) => {
   handleAnchorClick(event)
   emit('close')
-  emit('navClick', event)
 }
 </script>

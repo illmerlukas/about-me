@@ -83,7 +83,8 @@ const questions: Question[] = [
   {
     id: 'background',
     text: "What's your professional background?",
-    response: '',
+    response:
+      "I've been a full-stack developer at Russmedia Digital GmbH since April 2018, working across frontend and backend technologies.",
     asked: false,
   },
   {
